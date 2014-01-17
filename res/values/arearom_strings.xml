@@ -18,6 +18,9 @@
     <!-- Layers Manager -->
     <string name="layers_manager_title">Layers Manager</string>
 
+    <!-- Superuser header -->
+    <string name="supersu_title">Superuser</string>
+
     <!-- Advanced reboot -->
     <string name="advanced_reboot_title">Advanced reboot</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
