@@ -129,8 +129,20 @@
                 android:title="@string/kernel_version"
                 android:summary="@string/device_info_default"/>
 
+        <!-- AreaROM version -->
+        <Preference android:key="res/xml/device_info_settings.xmlarearom_version" 
+                style="?android:preferenceInformationStyle"
+                android:title="@string/arearom_version"
+                android:summary="@string/device_info_default" />
+
+        <!-- MODversion (firmware and timestamp) -->
+        <Preference android:key="res/xml/device_info_settings.xmlmod_version" 
+                style="?android:preferenceInformationStyle"
+                android:title="@string/mod_version"
+                android:summary="@string/device_info_default"/>
+
         <!-- Detailed build version -->
-        <Preference android:key="build_number" 
+        <Preference android:key="res/xml/device_info_settings.xmlbuild_number" 
                 style="?android:preferenceInformationStyle"
                 android:title="@string/build_number"
                 android:summary="@string/device_info_default"/>
