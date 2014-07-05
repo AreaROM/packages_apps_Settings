@@ -2154,6 +2154,10 @@
     <string name="baseband_version">Baseband version</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="kernel_version">Kernel version</string>
+    <!-- About Phone screen, setting option name -->
+    <string name="arearom_version">AreaROM version</string>
+    <!-- About Phone screen, setting option name -->
+    <string name="mod_version">Modversion</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_number">Build number</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
