@@ -77,6 +77,8 @@ public class DeviceInfoSettings extends PreferenceActivity {
         setStringSummary("device_model", Build.MODEL);
         setStringSummary("build_number", Build.DISPLAY);
         findPreference("kernel_version").setSummary(getFormattedKernelVersion());
+        setStringSummary("arearom_version", Build.AREAROM);
+        setStringSummary("mod_version", Build.MODVERSION);
 
         // Remove Safety information preference if PROPERTY_URL_SAFETYLEGAL is not set
         removePreferenceIfPropertyMissing(getPreferenceScreen(), "safetylegal",
