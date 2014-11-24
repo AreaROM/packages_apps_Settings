@@ -42,7 +42,7 @@ import java.util.regex.Pattern;
 public class DeviceInfoSettings extends PreferenceActivity {
     private static final String TAG = "DeviceInfoSettings";
 
-    private static final String KEY_CONTAINER = "container";
+    private static final String KEY_CONTAINER = "logo1";
     private static final String KEY_TEAM = "team";
     private static final String KEY_CONTRIBUTORS = "contributors";
     private static final String KEY_TERMS = "terms";
