@@ -23,6 +23,12 @@
                 android:title="@string/brightness"
                 android:dialogTitle="@string/brightness" />
 
+        <CheckBoxPreference 
+            android:key="status_bar_brightness_control"
+            android:title="@string/ui_status_bar_toggle_brightness"
+            android:summary="@string/ui_status_bar_toggle_brightness_summary"
+            android:defaultValue="falses" />
+
         <CheckBoxPreference
             android:key="accelerometer"
             android:title="@string/accelerometer_title"/>
