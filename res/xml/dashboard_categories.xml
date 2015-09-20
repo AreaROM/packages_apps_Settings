@@ -71,6 +71,10 @@
 
     </dashboard-category>
 
+    <dashboard-category
+            android:id="@+id/mod_section"
+            android:title="@string/header_category_modifications" >
+
         <!-- Layers Manager -->
         <dashboard-tile
                 android:id="@+id/bitsyko_layers"

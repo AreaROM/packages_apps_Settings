@@ -15,6 +15,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Modifications -->
+    <string name="header_category_modifications">Modifications</string>
+
     <!-- Layers Manager -->
     <string name="layers_manager_title">Layers Manager</string>
 
