@@ -21,11 +21,27 @@
     <!-- Layers Manager -->
     <string name="layers_manager_title">Layers Manager</string>
 
+    <!-- Desolated Core -->
+    <string name="desolation_custom_title">Desolated Core</string>
+
     <!-- Superuser header -->
     <string name="supersu_title">Superuser</string>
 
     <!-- Advanced reboot -->
     <string name="advanced_reboot_title">Advanced reboot</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
+
+    <!-- Power menu -->
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_summary">Switch visibility of power menu options</string>
+    <string name="power_menu_reboot_title">Reboot menu</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_profiles_title">Profile switcher</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_users_title">User switcher</string>
+    <string name="power_menu_settings_title">Settings shortcut</string>
+    <string name="power_menu_lockdown_title">Device lockdown</string>
+    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_sound_title">Sound panel</string>
 
 </resources>
