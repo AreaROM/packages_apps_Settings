@@ -282,7 +282,12 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
                 debugDebuggingCategory.removePreference(mClearAdbKeys);
             }
         }
-        mEnableTerminal = findAndInitCheckboxPref(ENABLE_TERMINAL);
+        mAllPrefs.add(mClearAdbKeys);
+        mEnableTerminal = findAndInitSwitchPref(ENABLE_TERMINAL);
+        if (!isPackageInstalled(getActivity(), TERMINAL_APP_PACKAGE)) {
+            debugDebuggingCategory.removePreference(mEnableTerminal);
+            mEnableTerminal = null;
+        }
 
         mBugreport = findPreference(BUGREPORT);
         mBugreportInPower = findAndInitSwitchPref(BUGREPORT_IN_POWER_KEY);
@@ -497,10 +502,12 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         mHaveDebugSettings = false;
         updateSwitchPreference(mEnableAdb, Settings.Global.getInt(cr,
                 Settings.Global.ADB_ENABLED, 0) != 0);
-        updateCheckBox(mEnableTerminal,
-                context.getPackageManager().getApplicationEnabledSetting(TERMINAL_APP_PACKAGE)
-                == PackageManager.COMPONENT_ENABLED_STATE_ENABLED);
-        updateCheckBox(mBugreportInPower, Settings.Secure.getInt(cr,
+        if (mEnableTerminal != null) {
+            updateSwitchPreference(mEnableTerminal,
+                    context.getPackageManager().getApplicationEnabledSetting(TERMINAL_APP_PACKAGE)
+                            == PackageManager.COMPONENT_ENABLED_STATE_ENABLED);
+        }
+        updateSwitchPreference(mBugreportInPower, Settings.Secure.getInt(cr,
                 Settings.Secure.BUGREPORT_IN_POWER_MENU, 0) != 0);
         updateSwitchPreference(mKeepScreenOn, Settings.Global.getInt(cr,
                 Settings.Global.STAY_ON_WHILE_PLUGGED_IN, 0) != 0);
