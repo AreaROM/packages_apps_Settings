@@ -496,6 +496,12 @@ public class Memory extends SettingsPreferenceFragment implements Indexable {
                 data.screenTitle = context.getString(R.string.storage_settings);
                 result.add(data);
 
+                data = new SearchIndexableRaw(context);
+                data.title = context.getString(R.string.memory_multirom_usage);
+                data.screenTitle = context.getString(R.string.storage_settings);
+                result.add(data);
+
+
                 return result;
             }
         };
