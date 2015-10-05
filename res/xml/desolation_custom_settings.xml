@@ -25,4 +25,10 @@
         android:summary="@string/power_menu_summary"
         android:fragment="com.android.settings.desolation.PowerMenu" />
 
+    <PreferenceScreen
+        android:key="expanded_desktop"
+        android:title="@string/power_menu_expanded_desktop"
+        android:summary="@string/expanded_desktop_summary"
+        android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+
 </PreferenceScreen>

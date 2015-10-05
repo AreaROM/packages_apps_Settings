@@ -22,7 +22,7 @@
     <string name="layers_manager_title">Layers Manager</string>
 
     <!-- Desolated Core -->
-    <string name="desolation_custom_title">Desolated Core</string>
+    <string name="desolation_custom_title">Hangar 18</string>
 
     <!-- Superuser header -->
     <string name="supersu_title">Superuser</string>
@@ -56,5 +56,6 @@
     <string name="expanded_desktop_style">Expanded desktop style</string>
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="expanded_desktop_summary"> Configure Expanded Desktop mode.</string>
 
 </resources>
