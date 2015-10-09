@@ -27,6 +27,9 @@
     <!-- Superuser header -->
     <string name="supersu_title">Superuser</string>
 
+    <!-- Kernel Adiutor -->
+    <string name="performance_title">Performance</string>
+
     <!-- Advanced reboot -->
     <string name="advanced_reboot_title">Advanced reboot</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>

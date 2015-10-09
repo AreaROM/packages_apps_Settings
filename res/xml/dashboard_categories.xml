@@ -93,6 +93,17 @@
                 android:fragment="com.android.settings.desolation.CustomSettings"
                 android:icon="@drawable/ic_desolation_settings"
                 />
+
+        <!-- Kernel Adiutor -->
+        <dashboard-tile
+		android:id="@+id/performance_settings"
+		android:icon="@drawable/ic_settings_performance"
+		android:title="@string/performance_title" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.fusion.kerneladiutor"
+                android:targetClass="com.fusion.kerneladiutor.MainActivity" />
+        </dashboard-tile>
     </dashboard-category>
 
     <!-- DEVICE -->
