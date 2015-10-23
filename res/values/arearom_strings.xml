@@ -61,8 +61,4 @@
     <string name="expanded_desktop_title">Expanded desktop options</string>
     <string name="expanded_desktop_summary"> Configure Expanded Desktop mode.</string>
 
-    <!-- Battery saver -->
-    <string name="battery_saver_title">Warning color</string>
-    <string name="battery_saver_style_reset_message">Reset battery saver warning color?</string>
-
 </resources>
